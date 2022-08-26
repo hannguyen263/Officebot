@@ -1,13 +1,13 @@
 {
     "bot": {
-      "admin": "#",
+      "admin": "836194842",
       "notify": true,
-      "token": "#"
+      "token": "1630239529:AAFT68VnSPKIm8m6QVpWoT-gSXwmUAmBv3M"
     },
     "aad": {
-      "clientId": "#",
-      "clientSecret": "#",
-      "tenantId": "#"
+      "clientId": "c8676da0-8414-4f45-959f-7f549a1d02a5",
+      "clientSecret": "Rzp8Q~KayxMINnoxsNvAmXNwT4YXtFpQdSyTzc9_",
+      "tenantId": "8ade88ea-cec4-4eb7-af08-b97ba5253236"
     },
     "office": {
       "subscriptions": [
