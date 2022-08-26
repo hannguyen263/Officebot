@@ -1,5 +1,6 @@
 import re
 import json
+import time
 import logging
 import traceback
 
@@ -310,7 +311,17 @@ def handle_callback(call):
         )
 
 
-logger = telebot.logger
-telebot.logger.setLevel(logging.DEBUG)
+def main():
 
-bot.polling(none_stop=True)
+    logger = telebot.logger
+    telebot.logger.setLevel(logging.DEBUG)
+
+    bot.polling(none_stop=True)
+
+
+if __name__=="__main__":
+    while True:
+        try:
+            main()
+        except:
+            time.sleep(10)
